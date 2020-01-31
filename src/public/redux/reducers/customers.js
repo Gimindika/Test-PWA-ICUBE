@@ -2,28 +2,28 @@ const initialState = {
   // set initial state with mock data
   customers: [
     {
-      email: "customer1@gmail.com",
-      name: "customer one",
-      phone: "08123456789",
-      address: "address"
+      email: "Andi@gmail.com",
+      name: "Andi Oke",
+      phone: "081212121212",
+      address: "Jakarta"
     },
     {
-      email: "customer2@gmail.com",
-      name: "customer two",
-      phone: "08123456789",
-      address: "address"
+      email: "Budi@gmail.com",
+      name: "Budi Wijaya",
+      phone: "08134567891",
+      address: "Yogyakarta"
     },
     {
-      email: "customer3@gmail.com",
-      name: "customer three",
-      phone: "08123456789",
-      address: "address"
+      email: "Chika@gmail.com",
+      name: "Chika Three",
+      phone: "08823456700",
+      address: "Bandar Lampung"
     },
     {
-      email: "customer4@gmail.com",
-      name: "customer four",
-      phone: "08123456789",
-      address: "address"
+      email: "Dody@gmail.com",
+      name: "Dody Iskandar",
+      phone: "085293839383",
+      address: "Palembang"
     }
   ],
   customerDetail: {}

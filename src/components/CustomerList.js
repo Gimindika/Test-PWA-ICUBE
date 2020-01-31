@@ -22,14 +22,14 @@ class CustomerList extends Component {
   render() {
     const { customers } = this.state;
     return (
-      <div className="customer-list-container">
+      <div className="customerlist-container">
         <h1 className="title-text">Customer List</h1>
         <ul>
           {customers.length &&
             customers.map(customer => {
               return (
                 <Link
-                  className="customer-email-list"
+                  className="customeremail-list"
                   key={customer.email}
                   to={{
                     pathname: `/customers/${customer.email}`,

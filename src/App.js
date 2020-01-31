@@ -14,7 +14,10 @@ const App = () => {
       <BrowserRouter>
         <div className="App">
           <Switch>
-            <Route path={"/customers/:email"} component={CustomerDetail} />
+            <Route
+              path={"/customers/:email"}
+              render={props => <CustomerDetail {...props} />}
+            />
             <Redirect from="/customers" to="/" />
             <Route exact path="/" component={CustomerList} />
           </Switch>
