@@ -1,0 +1,23 @@
+.title-text{
+    text-align: left;
+    margin-left: 30px;
+    border-bottom:1px solid black;
+}
+
+.customer-list-container {
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 50%;
+    align-items: center;
+    
+}
+
+.customer-email-list{
+    list-style-type: none;
+}
+
+.customer-email-list li{
+    margin-top: 15px;
+    text-align: center;
+}
